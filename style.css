@@ -1,3 +1,5 @@
+
+
 * {
     
     color:rgb(8, 8, 8);
@@ -7,13 +9,13 @@
     word-spacing: 2px;
     text-align: center;
     box-sizing:border-box; 
-   
+    
 };
 
 body {
      margin: 0px;
      padding: 0px; 
-
+background-color:black;
     height: 150vh;
     
 };
@@ -21,21 +23,25 @@ body {
 a, h4 {
   text-transform: uppercase;
 }
-#nav {
-    background-color:white;
-}
- 
+#icon {
+  border-color: rgb(255,102,203);
+} 
 #hero {
     position: relative;
     border: none;
     height: 100vh;
 }
-
+#burger {
+ background-color:black;
+}
 #pad {
   padding-top:30px;
 }
+#black {
+  color:black;
+}
 #hero .hero-image {
-    background-image: url("images/pin.jpg");
+    background-image: url("images/t.gif");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +82,7 @@ a, h4 {
 }
 
 #hero .skewhero-image {
-    background-image: url("images/pin.jpg");
+    background-image: url("images/tupac-0f8366e7-6d41-4e19-adb6-79723ecdd511.jpg");
     height: 100%;
    
     background-attachment: fixed;
@@ -101,7 +107,6 @@ a, h4 {
 
     }
   
-
   ul {
     display: inline-block;
     display: inline;
@@ -109,6 +114,14 @@ a, h4 {
     padding-right:63px;
   
   }
+
+  #home, #rare {
+    color:black;
+  }
+  #sr-only {
+    background-color:black;
+  }
+  
   #text {
   
     padding-bottom: 40px;
@@ -136,7 +149,7 @@ a, h4 {
 }
 li {
 list-style-type :none;
-
+color:black;
 }
 
 i {
@@ -145,12 +158,13 @@ i {
 
 .form-control::placeholder {
   font-size: 0.105rem;
-  color: #aaa;
+  color: rgb(10, 10, 10);
   font-style: italic;
 }
 
 .form-control.shadow-0:focus {
   box-shadow: none;
+  color:black;
 }
 
 main {
@@ -399,7 +413,7 @@ html,body {
 
 
 .header-blue {
-  background-image: url('images/Antoientte-Chalk-Paint-swatch-1024x819.jpg');
+  background-image: url('images/1200px-Tupac_Shakur\'s_signature.svg.png');
   background-repeat: repeat;
   
 }
@@ -678,7 +692,7 @@ text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 
   padding-top:30px;
 
 }
-.wrapper{background: url('images/2pac-tupac-shakur-photo-mike-miller-los-angeles-screenshot-.jpg') no-repeat   center center fixed;
+.wrapper{background: url('images/1200px-Tupac_Shakur\'s_signature.svg.png') no-repeat   center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
